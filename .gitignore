@@ -1,0 +1,12 @@
+# virtual environments
+.venv
+
+# local settings
+local_settings.py
+
+# start up scripts
+*.up.sh
+
+# migrations
+**/migrations/*
+!**/migrations/__init__.py
