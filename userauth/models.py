@@ -1,7 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser, PermissionsMixin
-from core.models import BaseModel
-
+from core_django.models import BaseModel
 
 class PermissionGroup(BaseModel):
     name = models.TextField()
@@ -18,4 +17,3 @@ class User(BaseModel, AbstractUser):
         blank=True,
         related_name="users",
     )
-

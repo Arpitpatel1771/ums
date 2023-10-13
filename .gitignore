@@ -4,6 +4,9 @@
 # local settings
 local_settings.py
 
+# local scripts
+*.local.sh
+
 # start up scripts
 *.up.sh
 
