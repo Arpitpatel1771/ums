@@ -21,7 +21,7 @@ class BaseModel(models.Model):
 
     def save(self, *args, **kwargs) -> None:
         
-        # TODO: add method to add data to log entry custom
+        # TODO: make it so that all data which is changed gets stoored in LogEntryCustom
 
         return super().save(*args, **kwargs)
     
